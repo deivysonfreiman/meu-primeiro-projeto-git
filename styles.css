@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+header {
+    margin: 44px 0 0 76px;
+}
+
+.links {
+    margin-right: 23px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    color:#989D9C;
+    cursor: pointer;
+}
+
+.links:hover {
+    opacity: 0.5;
+}
+
+.links:active {
+    opacity: 0.8;
+}
+
+.botao-login {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: white;
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px;
+    background-color: #665AE1;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-login:hover {
+    opacity: 0.7;
+}
+
+.botao-login:active {
+    opacity: 0.9;
+}
+
+.botao-explorar{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ADFF00;
+    cursor: pointer;
+}
+
+.botao-explorar:hover {
+    opacity: 0.8;
+}
+
+.botao-explorar:active {
+        opacity: 0.6;
+}
+
+img {
+    width: 568px;
+    height: 500px;
+    display: inline-block;
+    margin-top: 144px;
+    margin-left: 125px;
+}
+
+div {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 121px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 70px;
+    color: #515151;
+    margin-bottom: 32px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 550px;
+    margin-bottom: 65px;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        display: none;
+    }
+
+    p { 
+        display: none;
+        
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    h1 {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    h2 {
+        font-size: 50px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .botao-explorar {
+            width: 280px;
+            height: 70px;    
+            margin-top: 10px;  
+    }
+
+    div {
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+
+    header {
+        display: none;
+    }
+
+    p { 
+        display: none;
+        
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        margin-top: 140px;
+        width: 400px;
+        height: 350px;
+    }
+
+    h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    h2 {
+        font-size: 35px;
+        text-align: center;
+        line-height: 36px;
+        margin: auto;
+    }
+
+    .botao-explorar {
+            width: 240px;
+            height: 64px;    
+            margin-top: 15px;  
+            font-size: 28px;
+            line-height: 34px;
+    }
+
+    div {
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+    }
+}
